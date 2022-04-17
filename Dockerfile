@@ -1,4 +1,4 @@
-FROM sameersbn/nginx:latest
+FROM nginx:1.21.6-alpine
 WORKDIR /usr/share/nginx/html
 COPY . .
 EXPOSE 8080
